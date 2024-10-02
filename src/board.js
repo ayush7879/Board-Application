@@ -45,8 +45,6 @@ const  Board=(props)=> {
         } catch (error) {
             console.error("Error:", error);
         }
-
-
     }
     function count() {
         tick.map((ticket) => {
